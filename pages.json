@@ -1,0 +1,61 @@
+{
+	"pages": [
+		{
+			"path": "pages/booking/index",
+			"style": {
+				"navigationBarTitleText": "湖北大学校车预约"
+			}
+		},
+		{
+			"path": "pages/qrcode/index",
+			"style": {
+				"navigationBarTitleText": "乘车码"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/auth/index",
+			"style": {
+				"navigationBarTitleText": "身份认证"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "湖北大学校车预约",
+		"navigationBarBackgroundColor": "#1E50A2",
+		"backgroundColor": "#F5F5F5"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#1E50A2",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/booking/index",
+				"text": "车辆预约",
+				"iconPath": "static/icons/booking.png",
+				"selectedIconPath": "static/icons/booking-active.png"
+			},
+			{
+				"pagePath": "pages/qrcode/index",
+				"text": "乘车码",
+				"iconPath": "static/icons/qrcode.png",
+				"selectedIconPath": "static/icons/qrcode-active.png"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"text": "我的",
+				"iconPath": "static/icons/profile.png",
+				"selectedIconPath": "static/icons/profile-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
